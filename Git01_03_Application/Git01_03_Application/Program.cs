@@ -23,7 +23,7 @@ namespace Git01_03_App
             ListePersonne.Add(new Personne { Id = 10, Nom = "Benjamin", Ville = "Chartres", DateNaissance = new DateTime(1986, 1, 9) });
             ListePersonne.Add(new Personne { Id = 11, Nom = "Emmanuel", Ville = "Naïrobi", DateNaissance = new DateTime(1979, 10, 29) });
 
-            // ListePersonne.WriteLine(p => p.Nom);
+            // ListePersonne.WriteLine(p => p.Nom); 9999
             foreach (var p in ListePersonne) Console.WriteLine(p);
             Console.Read();
 
